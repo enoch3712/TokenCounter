@@ -1,0 +1,19 @@
+{
+  "name": "codexconverter.node",
+  "version": "1.0.0",
+  "description": "just to test the token encode",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node --presets es2015 app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.0",
+    "gpt-3-encoder": "^1.1.3",
+    "gpt3-tokenizer": "^1.1.2",
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0"
+  }
+}
